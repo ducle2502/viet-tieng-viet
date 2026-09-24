@@ -1,0 +1,56 @@
+{
+  "skill_name": "viet-tieng-viet",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tôi gửi một đoạn báo cáo kiểm toán có câu “Hạ tầng production là điều kiện trực tiếp của go-live và việc không timely approval sẽ impact timeline”. Viết lại bằng tiếng Việt tự nhiên cho Trưởng Ban Kiểm soát, giữ nguyên ý chưa được phê duyệt và nguy cơ chậm tiến độ.",
+      "expected_output": "Đoạn tiếng Việt ngắn, chủ thể và quan hệ điều kiện rõ, không dịch từng chữ, không tăng mức độ kết luận.",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Không dùng gạch ngang dài hoặc cụm “điều kiện trực tiếp của”."
+        },
+        {
+          "text": "Giữ đúng hai ý: hạ tầng chưa được phê duyệt và tiến độ có thể bị ảnh hưởng."
+        },
+        {
+          "text": "Không tự kết luận dự án chắc chắn chậm."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Biên tập đoạn sau thành văn phong quản trị tự nhiên: “TMO xác nhận kết quả thực hiện cam kết của owner trước EOD. Trong trường hợp chưa close, thực hiện escalation BCD.” Không làm mất yêu cầu phải báo cáo phần đã làm, phần tồn đọng và lý do.",
+      "expected_output": "Câu giao việc rõ người, rõ nội dung báo cáo, bỏ owner/EOD/close/escalation khi không cần giữ thuật ngữ.",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Nêu TMO là chủ thể báo cáo."
+        },
+        {
+          "text": "Nêu đủ việc đã làm, việc còn tồn đọng và lý do."
+        },
+        {
+          "text": "Không còn owner, EOD, close hoặc escalation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Rà soát một kiến nghị KTNB: “Pháp chế phối hợp Tài chính review contract chain, validate legal basis, tax implication, payment obligation and deliverable acceptance.” Viết lại bằng tiếng Việt tự nhiên, không tự thêm kết luận pháp lý.",
+      "expected_output": "Kiến nghị tiếng Việt nêu rõ đơn vị, câu hỏi cần kết luận, hồ sơ còn thiếu và giới hạn không kết luận thay Pháp chế.",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Nêu Pháp chế và Tài chính là đơn vị thực hiện."
+        },
+        {
+          "text": "Không còn các cụm review, contract chain, validate, tax implication, payment obligation, deliverable acceptance."
+        },
+        {
+          "text": "Không tự khẳng định hợp đồng hợp pháp hoặc không hợp pháp."
+        }
+      ]
+    }
+  ]
+}

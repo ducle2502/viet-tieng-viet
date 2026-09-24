@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Viết lại báo cáo này cho tự nhiên, bỏ mùi AI nhưng giữ nguyên số liệu và nguồn.",
+    "should_trigger": true
+  },
+  {
+    "query": "Câu này nghe như dịch từ tiếng Anh, sửa giúp tôi theo giọng báo cáo ngân hàng.",
+    "should_trigger": true
+  },
+  {
+    "query": "Biên tập file md này thành tiếng Việt tự nhiên để trình Trưởng Ban Kiểm soát.",
+    "should_trigger": true
+  },
+  {
+    "query": "Bỏ các cụm owner, blocker, escalation và viết lại cho người không chuyên kỹ thuật.",
+    "should_trigger": true
+  },
+  {
+    "query": "Việt hóa phần kiến nghị kiểm toán, nhưng đừng làm tăng mức độ kết luận.",
+    "should_trigger": true
+  },
+  {
+    "query": "Sửa email tiếng Việt này, câu đang quá máy móc và nhiều danh từ hóa.",
+    "should_trigger": true
+  },
+  {
+    "query": "Rà soát dấu hiệu dịch thô Anh Việt trong biên bản họp này.",
+    "should_trigger": true
+  },
+  {
+    "query": "Viết lại tờ trình, nêu rõ ai làm gì và hạn nào, đừng dùng văn AI.",
+    "should_trigger": true
+  },
+  {
+    "query": "Tôi có bản dịch báo cáo từ tiếng Anh, hãy viết lại từ ý chứ đừng dịch từng câu.",
+    "should_trigger": true
+  },
+  {
+    "query": "Chuẩn hóa tiếng Việt của báo cáo sự cố, giữ nguyên mọi điều kiện và ngoại lệ.",
+    "should_trigger": true
+  },
+  {
+    "query": "Dịch nguyên văn hợp đồng này sang tiếng Anh và giữ thuật ngữ pháp lý.",
+    "should_trigger": false
+  },
+  {
+    "query": "Tóm tắt báo cáo này thành năm gạch đầu dòng, không cần chỉnh văn phong.",
+    "should_trigger": false
+  },
+  {
+    "query": "Kiểm tra chính tả tên người và số tài khoản trong bảng Excel.",
+    "should_trigger": false
+  },
+  {
+    "query": "Viết một bài thơ tiếng Việt về mùa mưa.",
+    "should_trigger": false
+  },
+  {
+    "query": "Tạo biểu đồ tiến độ từ file CSV này.",
+    "should_trigger": false
+  },
+  {
+    "query": "Chuyển file PDF sang Word nhưng giữ nguyên bố cục.",
+    "should_trigger": false
+  },
+  {
+    "query": "Hãy đánh giá nhân viên nào viết báo cáo tốt nhất.",
+    "should_trigger": false
+  },
+  {
+    "query": "Giải thích thuật ngữ AML/KYC là gì.",
+    "should_trigger": false
+  },
+  {
+    "query": "Soạn mã Python để dò từ tiếng Anh trong tài liệu.",
+    "should_trigger": false
+  },
+  {
+    "query": "Dịch email này sang tiếng Việt sát nghĩa để đối chiếu pháp lý, không được diễn đạt lại.",
+    "should_trigger": false
+  }
+]
